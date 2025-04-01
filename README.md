@@ -1,26 +1,81 @@
-# 📅 Date Created: 04/01/2025
+# 📌 InfluxDB CLI interactive console
+# AUTHOR: Gustavo Wydler Azuaga
+# Release Date: 04/01/2025
 
----
+### 📡 InfluxDB CLI Menu
 
-# influxdb_interactive_console
+A simple InfluxDB CLI Menu script for managing organizations, databases (buckets), users, and queries using the InfluxDB CLI.
 
-Welcome to the **influxdb_interactive_console** repository! 🎉
+-----------------------------------------------------------------------------------------------------------
 
-## 📌 About This Project
-This repository serves as a starting point for version-controlled projects.
-Feel free to modify and expand upon it as needed.
 
-## 🚀 Getting Started
+### 🎯 Features
 
-1. Clone this repository:
-   ```bash
-   git clone git@github.com:kurogane13/influxdb_interactive_console.git
-   ```
-2. Navigate into the directory:
-   ```bash
-   cd influxdb_interactive_console
-   ```
+- List and Manage Buckets (Databases)
+- Create & Delete Users and Organizations
+- Perform Queries on InfluxDB
+- User-friendly Menu with Emojis
+- Easily Extendable for More Operations
 
-##
----
-💡 *Happy coding! 🚀*
+-----------------------------------------------------------------------------------------------------------
+
+### 🖥️ CLI Menu Structure
+
+- List Buckets (Databases)
+- List Organizations
+- List Users Detailed | Lists users with all their info
+- Create a New Database (Bucket)
+- Delete a Database (Bucket)
+- Query a Database (Bucket)
+- Add a New Admin User
+- Delete a User
+- Create a New Organization
+- Delete an Organization
+- INFLUX QUERIES MENU
+
+-----------------------------------------------------------------------------------------------------------
+
+### 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kurogane13/influxdb_interactive_console.git
+cd influxdb_interactive_console
+```
+
+Make the script executable:
+
+```bash
+chmod +x influx_cli_console_new.sh
+```
+
+Run the script:
+
+```bash
+./influx_cli_console_new.sh
+```
+
+-----------------------------------------------------------------------------------------------------------
+
+### 📚 Usage
+
+- The script provides a simple menu to interact with InfluxDB. 
+- Select an option by entering the corresponding number.
+
+Example:
+
+Enter your choice: 1  # Lists all databases (buckets)
+
+-----------------------------------------------------------------------------------------------------------
+
+
+### 🛠️ Requirements
+
+InfluxDB CLI installed and configured.
+
+Access to an InfluxDB instance.
+
+Bash Shell environment.
+
+
